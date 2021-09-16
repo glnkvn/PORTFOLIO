@@ -1,0 +1,113 @@
+:root { 
+    --stripsheight: 12vh;
+}
+
+*{
+    box-sizing: border-box;
+    background-color: rgb(141, 191, 219);
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: var(--stripsheight);
+    background-color: rgb(53, 103, 133) ;
+}
+
+
+h1{
+    background-color: rgb(53, 103, 133) ;
+    text-align: center;
+    padding: 2vh;
+    font-size: 50px;
+}
+
+article{
+    height: calc(100vh - var(--stripsheight));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article section {
+    width: calc(100vw/3);
+    border: 4px solid whitesmoke;
+}
+
+h2{
+    text-align: center;
+    color: rgb(190, 112, 10);
+    /* font-size: 20px; */
+}
+
+article section , p {
+    background-color: rgb(218, 189, 97);
+}
+
+
+@media only screen and (max-width: 750px){
+
+    header{
+        height: 10vh;
+    }
+
+    article{
+        height: 90vh;
+    }
+    
+    article > section{
+        width: 50%;
+    }
+    
+    p{
+        font-size: 0.8em;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+
+    header{
+        height: 8vh;
+    }
+
+    article{
+        height: 92vh;
+    }
+
+    h1{
+        padding: 1vh;
+        font-size: 40px;
+    }
+    
+    main > article section{
+        width: 100vw;
+        
+    }
+/* 
+    main > article {
+        height: calc(100vh - var(--stripsheight));
+    } */
+
+    p{
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 360px){
+
+    header{
+        height: 6vh;
+    }
+
+    h1{
+        font-size: 27px;
+    }
+
+    article{
+        height: 94vh;
+    }
+    
+    p{
+        font-size: 0.5em;
+    }
+}
