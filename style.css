@@ -16,7 +16,6 @@ h1{
     color: rgb(36, 3, 33);
     font-family: Arial, Helvetica, sans-serif;
 
-    /* display: inline-block; */
     padding-top: 3vh;
     text-align: center;
 }
@@ -24,17 +23,14 @@ h1{
 section{
     right: 0;   
     display: inline-block;
-    /* width: 40vw; */
-    /* width: calc(100vw/3); */
+    
 }
 
 .links{ 
     background-color:rgb(139, 107, 46);
 }
 
-/* header section{
-    width: 40vw;
-} */
+
 
 div{
     color: cadetblue;
@@ -69,33 +65,20 @@ div{
 .topnav {
     overflow: hidden;
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    background-color: #03254c;
     height: 50px;
   }
 
 .topnav a {
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     display: inline-block;
-    padding: 14px 16px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 17px;
+    padding: 12px 15px;
+    font-size: 20px;
     width: calc(100vw/3);
+    text-decoration: none;
   }
     
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color:rgb(241, 188, 74);
   }
-    
-  /* .topnav a.active {
-    background-color: #1167b1;
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  } */
