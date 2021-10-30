@@ -1,5 +1,6 @@
 :root { 
     --stripsheight: 12vh;
+    --orange:rgb(190, 112, 10);
 }
 
 *{
@@ -35,7 +36,7 @@ article section {
 
 h2{
     text-align: center;
-    color: rgb(190, 112, 10);
+    color: var(--orange);
     /* font-size: 20px; */
 }
 
@@ -91,10 +92,6 @@ article section  {
         width: 100vw;
         
     }
-/* 
-    main > article {
-        height: calc(100vh - var(--stripsheight));
-    } */
 
     .project{
         font-size: 0.6em;

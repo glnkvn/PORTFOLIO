@@ -4,21 +4,32 @@
     font-family: Jazz LET, fantasy;
 }
 
+:root{
+    --orange:rgb(201, 116, 5);
+    --dark-brown:rgb(139, 107, 46);
+    --dark-orange:rgb(221, 168, 54);
+    --dark-blue:rgb(11, 61, 153);
+    --blue:rgb(7, 49, 126);
+    --blanchedalmond:blanchedalmond;
+    --light-purple:rgb(245, 195, 88);
+    --dark-crimson :rgb(43, 33, 33);
+}
+
 body{
-    background-color: blanchedalmond;
+    background-color: var(--blanchedalmond);
 }
 
 header{
-    background-color:rgb(245, 195, 88);
-    height: 20vh;
+    background-color:var(--light-purple);
+    height: 22vh;
 }
 
 h1{
-    color:  rgb(43, 33, 33);
+    color:  var(--dark-crimson);
     font-family: Jazz LET, fantasy;
     font-size: 50px;
     font-weight: 600;
-    padding-top: 3vh;
+    padding-top: 4vh;
     text-align: center;
 }
 
@@ -29,7 +40,8 @@ section{
 }
 
 .links{ 
-    background-color:rgb(139, 107, 46);
+    height: 60px;
+    background-color:var(--dark-blue);
     font-weight: 800;
 }
 
@@ -64,22 +76,29 @@ div{
  
 
 .topnav {
+    padding-left:calc(100vw/4); 
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    height: 50px;
+    background-color: var(--blue);
   }
 
 .topnav a {
-    color: black;
+    color:var(--orange);
     text-align: center;
     display: inline-block;
     padding: 12px 15px;
     font-size: 20px;
-    width: calc(100vw/3);
+    width: calc(100vw/6);
     text-decoration: none;
+
+  
+    display: flex;
+    justify-content: center;
+
+    
   }
     
   .topnav a:hover {
-    background-color:rgb(241, 188, 74);
+    background-color:var(--dark-orange);
   }
