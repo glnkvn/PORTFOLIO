@@ -100,9 +100,11 @@ header h1{
     /* display: flex; */
 }
 
-div{
-    color: cadetblue;
-    font-size: medium;
+#thechnical_skills{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
 }
 
 .first{
@@ -111,11 +113,6 @@ div{
 
 .first:hover  {
     color: rgb(48, 141, 48);
-}
-
-.topics{
-    color: rgb(48, 110, 114);
-    padding: 20px;
 }
 
 
@@ -158,3 +155,53 @@ header .topnav {
 .topnav a:hover {
     background-color:var(--dark-orange);
 }
+
+
+#skills {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: auto;
+}
+
+.iconify { 
+    margin: 18px;
+    width: 120px; 
+    height: 120px;
+}
+
+.my-skills {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+.skill-name {
+    visibility: hidden;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    color:var(--dark-crimson);
+    margin-bottom: 10px;
+    bottom: 4px;
+}
+
+
+.my-skills:hover {
+    background: var(--orange);
+    opacity: 85%;
+    width: 187px;
+    height: 187px;
+    transition: 0.5s ease;
+}
+
+.my-skills:hover .skill-name {
+    visibility: visible;
+    padding: 25px 35px;
+    width: 175px;
+    height: 25px;
+    transition: 0.5s ease;
+}
+
+
