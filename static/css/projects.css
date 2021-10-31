@@ -1,7 +1,7 @@
 :root { 
     --stripsheight: 12vh;
     --orange:rgb(190, 112, 10);
-    --blue:rgb(7, 49, 126);
+    --blue:rgb(3, 28, 75);
    --light-blue: rgb(53, 103, 133) ;
 }
 
@@ -16,7 +16,6 @@ header{
     height: var(--stripsheight);
     background-color: rgb(53, 103, 133) ;
 }
-
 
 h1{
     background-color: rgb(53, 103, 133) ;

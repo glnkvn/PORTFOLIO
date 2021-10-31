@@ -8,7 +8,7 @@
     --orange:rgb(201, 116, 5);
     --dark-brown:rgb(139, 107, 46);
     --dark-orange:rgb(221, 168, 54);
-    --dark-blue:rgb(11, 61, 153);
+    --dark-blue:rgb(5, 45, 119);
     --blue:rgb(7, 49, 126);
     --blanchedalmond:blanchedalmond;
     --light-purple:rgb(245, 195, 88);
@@ -21,7 +21,9 @@ body{
 
 header{
     background-color:var(--light-purple);
-    height: 22vh;
+    height: 28vh;
+    display: flex;
+    /* display:inline-block; */
 }
 
 h1{
@@ -29,22 +31,41 @@ h1{
     font-family: Jazz LET, fantasy;
     font-size: 50px;
     font-weight: 600;
-    padding-top: 4vh;
+    padding-top: 10vh;
     text-align: center;
+    width: 50%;
+    display:inline-block;
 }
 
 section{
     right: 0;   
-    display: inline-block;
-    
+    display: block;  
 }
 
 .links{ 
-    height: 60px;
+    /* height: 50px; */
+    right: 0;
+    height: calc(28vh / 3);
     background-color:var(--dark-blue);
     font-weight: 800;
 }
 
+#myPhoto{
+    height:100%;
+    display: inline-block;
+    border: 2px solid var(--blue);
+}
+
+header #myPhoto{
+    width: 20vw;
+    height: 28vh;
+    display: inline-block;
+}
+
+header h1{
+    width:60vw; 
+    /* display: flex; */
+}
 
 
 div{
@@ -75,30 +96,36 @@ div{
 }
  
 
-.topnav {
-    padding-left:calc(100vw/4); 
+header .topnav {
+    /* padding-left:calc(100vw/4);  */
+    /* left: 24wh; */
+    display:inline-block;
+    padding: 0px;
+    margin: 0;
     overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
+    width: 20vw;
+    right: 0; 
+    top: 0;  
+    /* flex-wrap: wrap; */
     background-color: var(--blue);
   }
 
 .topnav a {
+    right: 0;   
+    display: block;
     color:var(--orange);
     text-align: center;
-    display: inline-block;
-    padding: 12px 15px;
+    /* display: inline-block; */
+    padding: 15px 15px;
     font-size: 20px;
-    width: calc(100vw/6);
+    width: 100%;
+    /* height: calc(100vh/3); */
     text-decoration: none;
-
-  
-    display: flex;
-    justify-content: center;
-
+    overflow: hidden;
+    /* display: flex; */
+    justify-content: center; 
+}
     
-  }
-    
-  .topnav a:hover {
+.topnav a:hover {
     background-color:var(--dark-orange);
-  }
+}
