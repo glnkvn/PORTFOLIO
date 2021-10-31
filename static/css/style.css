@@ -10,6 +10,7 @@
     --dark-orange:rgb(221, 168, 54);
     --dark-blue:rgb(5, 45, 119);
     --blue:rgb(7, 49, 126);
+    --light-blue: rgb(113, 184, 224);
     --blanchedalmond:blanchedalmond;
     --light-orange:rgb(245, 195, 88);
     --dark-crimson :rgb(43, 33, 33);
@@ -20,11 +21,11 @@ body{
 }
 
 header{
-    background-color:var(--light-orange);
+    background-color:var(--orange);
     height: 28vh;
     display: flex;
     border-bottom: 5px solid var(--blue);
-    /* display:inline-block; */
+
 }
 
 #welcome{
@@ -34,12 +35,13 @@ header{
 }
 
 #firstInfo{
-    padding-left: 5px;
+    padding: 10px;
     border: 8px solid var(--blue);
     margin: 40px 180px 60px 180px;
     text-justify: inherit;
     color: var(--dark-crimson);
     font-size: 22px;
+    border-radius: 60px;
 }
 
 p{
@@ -55,6 +57,7 @@ p{
 }
 
 h1{
+    border-top: 5px solid var(--blue);
     color:  var(--dark-crimson);
     font-family: Jazz LET, fantasy;
     font-size: 60px;
@@ -79,9 +82,11 @@ section{
 }
 
 #myPhoto{
-    height:100%;
+    height:calc(100vh - 10px);
     display: inline-block;
-    border: 4px solid var(--blue);
+    border: 5px solid var(--blue);
+    /* border-left: 5px solid var(--blue);
+    border-right: 5px solid var(--blue); */
 }
 
 header #myPhoto{
@@ -121,7 +126,10 @@ div{
 #interests:hover  {
     color: rgb(207, 178, 13);
 }
- 
+
+.topnav {
+    border-top: 5px solid var(--blue);
+}
 
 header .topnav {
     display:inline-block;
