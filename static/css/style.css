@@ -368,12 +368,12 @@ h2{
 }
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 780px){
 
     h1{
         font-size: 53px;
         font-weight: 600;
-        padding-top: 7vh;
+        padding-top: 6vh;
     }
 
     header{
@@ -438,12 +438,35 @@ h2{
 @media only screen and (max-width: 600px){
 
     h1{
-        font-size: 44px;
+        font-size: 38px;
+        padding-top: 5vh;
+    }
+
+    header{
+        height: 15vh;
+    }
+
+    .links{ 
+        height: calc(14vh / 4);
+    }
+
+    header #myPhoto{
+        height: 15vh;
+        width: 32vw;
+    }
+
+    header h1{
+        width:54vw; 
+    }
+
+
+    .topnav a {
+        font-size: 15px;
     }
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 540px){
 
     article{
         height: 92vh;
@@ -481,6 +504,35 @@ h2{
 
     #skills {
         grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+   h1{
+        font-size: 33px;
+    }
+
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 34vw;
+    }
+
+    header h1{
+        width:55vw; 
+    }
+
+
+    .topnav a {
+        font-size: 12px;
     }
 }
 
