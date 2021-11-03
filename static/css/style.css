@@ -93,7 +93,6 @@ section{
 }
 
 .links{ 
-
     right: 0;
     height: calc(29vh / 4);
     background-color:var(--dark-blue);
@@ -153,7 +152,7 @@ header .topnav {
     color:var(--orange);
     text-align: center;
     padding: 15px 15px;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
     text-decoration: none;
     overflow: hidden;
@@ -317,6 +316,36 @@ h2{
 }
 
 @media only screen and (max-width: 900px){
+
+    h1{
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 7vh;
+    }
+
+    header{
+        height: 20vh;
+    }
+
+    .links{ 
+        height: calc(19vh / 4);
+    }
+
+    header #myPhoto{
+        height: 20vh;
+        width: 24vw;
+    }
+
+    header h1{
+        width:56vw; 
+    }
+
+
+    .topnav a {
+        font-size: 21px;
+    }
+
+
     #firstInfo{ 
         margin: 40px 120px 40px 120px;
     }
@@ -341,9 +370,35 @@ h2{
 
 @media only screen and (max-width: 750px){
 
+    h1{
+        font-size: 53px;
+        font-weight: 600;
+        padding-top: 7vh;
+    }
 
     header{
-        height: 24vh;
+        height: 20vh;
+    }
+
+    .links{ 
+        height: calc(19vh / 4);
+    }
+
+    a{
+        font-size: 30px;
+    }
+
+    header #myPhoto{
+        height: 20vh;
+        width: 24vw;
+    }
+
+    header h1{
+        width:62vw; 
+    }
+    
+    .topnav a {
+        font-size: 18px;
     }
 
     article{
@@ -378,6 +433,13 @@ h2{
         grid-template-columns: repeat(3,auto);
     }
     
+}
+
+@media only screen and (max-width: 600px){
+
+    h1{
+        font-size: 44px;
+    }
 }
 
 
