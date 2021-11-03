@@ -30,7 +30,6 @@ header{
     height: 30vh;
     display: flex;
     border-bottom: 5px solid var(--blue);
-
 }
 
 #about{
@@ -322,6 +321,18 @@ h2{
         margin: 40px 120px 40px 120px;
     }
 
+    #about{
+        margin:30px 100px 30px 100px;
+    }
+
+    #thechnical_skills{
+        margin:30px 100px 30px 100px;
+    }
+
+    #projects{
+        margin:30px 100px 30px 100px;
+    }
+
     #skills {
         grid-template-columns: repeat(4,auto);
     }
@@ -329,6 +340,11 @@ h2{
 
 
 @media only screen and (max-width: 750px){
+
+
+    header{
+        height: 24vh;
+    }
 
     article{
         height: 90vh;
@@ -344,6 +360,18 @@ h2{
 
     #firstInfo{ 
         margin: 30px 70px 30px 70px;
+    }
+
+    #about{
+        margin:30px 88px 30px 88px;
+    }
+
+    #thechnical_skills{
+        margin:30px 88px 30px 88px;
+    }
+
+    #projects{
+        margin:30px 88px 30px 88px;
     }
 
     #skills {
@@ -377,6 +405,18 @@ h2{
         margin: 30px 30px 30px 30px;
     }
 
+    #about{
+        margin:30px 50px 30px 50px;
+    }
+
+    #thechnical_skills{
+        margin:30px 50px 30px 50px;
+    }
+
+    #projects{
+        margin:30px 50px 30px 50px;
+    }
+
     #skills {
         grid-template-columns: repeat(2,auto);
     }
@@ -392,13 +432,29 @@ h2{
     article{
         height: 94vh;
     }
+
+    article > section{
+        width: 100%;
+    }
     
     .project{
         font-size: 0.5em;
     }
 
     #firstInfo{ 
-        margin: 30px 18px 30px 18px;
+        margin: 30px 15px 30px 15px;
+    }
+
+    #thechnical_skills{
+        margin:30px 22px 30px 22px;
+    }
+
+    #projects{
+        margin:30px 22px 30px 22px;
+    }
+
+    #about{
+        margin:30px 22px 30px 22px;
     }
 
     #skills {
