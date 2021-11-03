@@ -80,8 +80,8 @@ h1{
     border-top: 5px solid var(--blue);
     color:  var(--dark-crimson);
     font-family: Jazz LET, fantasy;
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 700;
     padding-top: 10vh;
     text-align: center;
     width: 50%;
@@ -245,6 +245,7 @@ article section {
 }
 
 h2{
+    padding-top: 5px;
     text-align: center;
     color: var(--orange );
     font-weight: 700;
@@ -252,6 +253,8 @@ h2{
 }
 
 .project{
+    padding-left: 5px;
+    padding-right: 5px;
     display: inline-block;
 }
 
@@ -314,11 +317,18 @@ h2{
     80%{top:0em;}
 }
 
-@media only screen and (max-width: 750px){
-
-    header{
-        height: 10vh;
+@media only screen and (max-width: 900px){
+    #firstInfo{ 
+        margin: 40px 120px 40px 120px;
     }
+
+    #skills {
+        grid-template-columns: repeat(4,auto);
+    }
+}
+
+
+@media only screen and (max-width: 750px){
 
     article{
         height: 90vh;
@@ -331,14 +341,19 @@ h2{
     .project{
         font-size: 0.8em;
     }
+
+    #firstInfo{ 
+        margin: 30px 70px 30px 70px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(3,auto);
+    }
+    
 }
 
 
 @media only screen and (max-width: 500px){
-
-    header{
-        height: 8vh;
-    }
 
     article{
         height: 92vh;
@@ -357,13 +372,18 @@ h2{
     .project{
         font-size: 0.6em;
     }
+
+    #firstInfo{ 
+        margin: 30px 30px 30px 30px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(2,auto);
+    }
 }
 
 @media only screen and (max-width: 360px){
 
-    header{
-        height: 6vh;
-    }
 
     h1{
         font-size: 27px;
@@ -375,6 +395,14 @@ h2{
     
     .project{
         font-size: 0.5em;
+    }
+
+    #firstInfo{ 
+        margin: 30px 18px 30px 18px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(1,auto);
     }
 }
 
