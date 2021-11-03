@@ -470,7 +470,7 @@ h2{
 
     h1{
         font-size: 32px;
-        padding-top: 5vh;
+        padding-top: 4vh;
     }
 
     header{
@@ -483,11 +483,11 @@ h2{
 
     header #myPhoto{
         height: 14vh;
-        width: 35vw;
+        width: 33vw;
     }
 
     header h1{
-        width:52vw; 
+        width:53vw; 
     }
 
 
@@ -528,8 +528,8 @@ h2{
 @media only screen and (max-width: 450px){
 
    h1{
-        font-size: 33px;
-        padding-top: 4vh;
+        font-size: 30px;
+        padding-top: 2vh;
     }
 
     header{
@@ -542,11 +542,11 @@ h2{
 
     header #myPhoto{
         height: 14vh;
-        width: 34vw;
+        width: 33vw;
     }
 
     header h1{
-        width:55vw; 
+        width:54vw; 
     }
 
 
@@ -559,11 +559,30 @@ h2{
 
 
     h1{
-        font-size: 27px;
+        font-size: 25px;
+        padding-top: 2vh;
     }
 
-    article{
-        height: 94vh;
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 38vw;
+    }
+
+    header h1{
+        width:50vw; 
+    }
+
+
+    .topnav a {
+        font-size: 9px;
     }
 
     article > section{
