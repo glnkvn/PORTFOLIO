@@ -468,13 +468,31 @@ h2{
 
 @media only screen and (max-width: 540px){
 
-    article{
-        height: 92vh;
+    h1{
+        font-size: 32px;
+        padding-top: 5vh;
     }
 
-    h1{
-        padding: 1vh;
-        font-size: 40px;
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 35vw;
+    }
+
+    header h1{
+        width:52vw; 
+    }
+
+
+    .topnav a {
+        font-size: 10px;
     }
     
     main > article section{
@@ -511,6 +529,7 @@ h2{
 
    h1{
         font-size: 33px;
+        padding-top: 4vh;
     }
 
     header{
