@@ -4,28 +4,8 @@
     font-family: Jazz LET, fantasy;
 }
 
-.type p{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid var(--orange); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
-    animation: typing 2.2s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 40% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--orange); }
-  }
-
 :root{
+    --white: rgb(245, 242, 239);
     --orange:rgb(201, 116, 5);
     --dark-brown:rgb(139, 107, 46);
     --dark-orange:rgb(221, 168, 54);
@@ -39,19 +19,96 @@
     /* /* --orange:rgb(190, 112, 10); */
     /* --blue:rgb(3, 28, 75); */
    /* --light-blue: rgb(53, 103, 133) ;  */
-   --light-blue: rgb(141, 191, 219)
+   /* --light-blue: rgb(141, 191, 219) */
+   --light-blue: rgb(183, 224, 240) ; 
+}
+
+.type p{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--orange); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: typing 2.2s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--orange); }
 }
 
 body{
     background-color: var(--light-orange);
 }
 
-header{
-    background-color:var(--light-blue);
-    height: 30vh;
-    display: flex;
-    border-bottom: 5px solid var(--blue);
+
+.navbar-button {
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+    margin: 5px
 }
+
+#show-navbar-button {
+    color: var(--dark-blue);  
+}
+
+#hide-navbar-button {
+    font-size: 50px; 
+}
+
+#hide-navbar-button:hover {
+    color: var(--orange);
+    transition: 0.2s;
+}
+
+.navbar {
+    margin-top: 12vh;
+    position: fixed;
+    z-index: 50;
+    height: 100vh;
+    width: 22vw;
+    background-color: var(--orange);
+    padding-top: 10px;
+    padding-left: 40px;
+    transition: 0.5s;
+    border-right: 5px solid var(--orange);
+    border-radius: 5px;
+}
+
+#hide-navbar{
+    transform: translateX(-200%);
+}
+
+#show-navbar {
+    transform: translateX(0);
+}
+
+a {
+    display: block;
+    font-size: 30px;
+    padding-top: 50px; 
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark-crimson);   
+}
+
+a:hover{
+    color: var(--white);
+}
+
+
+
 
 #about{
     /* padding-top: 40px;
@@ -113,12 +170,6 @@ section{
     display: block;  
 }
 
-.links{ 
-    right: 0;
-    height: calc(29vh / 4);
-    background-color:var(--dark-blue);
-    font-weight: 800;
-}
 
 #myPhoto{
     height:calc(100vh - 10px);
@@ -127,16 +178,6 @@ section{
 
 }
 
-header #myPhoto{
-    width: 19vw;
-    height: 30vh;
-    display: inline-block;
-}
-
-header h1{
-    width:61vw; 
-    /* display: flex; */
-}
 
 #thechnical_skills{
     padding-top: 20px;
@@ -151,33 +192,35 @@ header h1{
     padding-top: 20px;
 }
 
-.topnav {
-    border-top: 5px solid var(--blue);
-}
-
 header .topnav {
-    display:inline-block;
+    display:inline-flex;
     padding: 0px;
     margin: 0;
+    right: 0;
     overflow: hidden;
-    width: 20vw;
-    right: 0; 
+    flex-direction: row;
+    justify-content: space-between; 
+    position: fixed;
     top: 0;  
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
 }
 
 
 .topnav a {
-    right: 0;   
-    display: block;
-    color:var(--orange);
+    top: 15px;
+    right: 25px;   
+    color:var(--dark-crimson);
     text-align: center;
     padding: 15px 15px;
     font-size: 25px;
-    width: 100%;
     text-decoration: none;
     overflow: hidden;
     justify-content: center; 
+    font-weight: 800;
+}
+
+.topnav a:hover {
+    color:var(--white);
 }
 
 
@@ -212,9 +255,7 @@ header .topnav {
 }
 
     
-.topnav a:hover {
-    background-color:var(--light-orange);
-}
+
 
 .my-skills:hover {
     background: var(--orange);
@@ -279,7 +320,7 @@ h2{
 
 .sec{
     display: inline-block;
-    background-color: rgb(141, 191, 219);
+    background-color:var(--light-blue)
 }
 
 .sec form{
@@ -632,7 +673,6 @@ h2{
 
     #skills {
         grid-template-columns: repeat(1,auto);
-    }
-}
+    } 
 
 
