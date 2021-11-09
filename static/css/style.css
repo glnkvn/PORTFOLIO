@@ -15,7 +15,9 @@
     /* --light-blue: rgb(113, 184, 224); */
     --blanchedalmond:blanchedalmond;
     --light-orange:rgb(245, 195, 88);
-    --dark-crimson :rgb(43, 33, 33);
+    --dark-crimson:rgb(7, 7, 7);
+    /* --dark-crimson :rgb(43, 33, 33); */
+    --black:rgb(7, 7, 7);
     --stripsheight: 12vh;
     /* /* --orange:rgb(190, 112, 10); */
     /* --blue:rgb(3, 28, 75); */
@@ -71,17 +73,16 @@ body{
 
 
 .navbar {
-    margin-top: 12vh;
+    margin-top: 10vh;
     position: fixed;
     z-index: 50;
     height: 100vh;
-    width: 22vw;
+    width: 15vw;
     background-color: var(--orange);
     /* padding-top: 10px; */
     padding-left: 40px;
     transition: 0.5s;
-    border-right: 5px solid var(--orange);
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #hide-navbar{
