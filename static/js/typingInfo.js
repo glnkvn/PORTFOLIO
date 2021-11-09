@@ -1,5 +1,5 @@
-const infos = ["Hello there!", "I'm Golnar Kaviani", "A recent Computer Science graduate and a full-stack developer trainee", "I enjoy coding and problem solving", "You can find out more out me here"];
-const classNames=["typing","myName","education","likes","findOut"]
+const infos = ["Hello there!", "Welcome to my portfolio","I'm Golnar Kaviani", "A recent Computer Science graduate and a full-stack developer trainee", "I enjoy coding and problem solving", "You can find out more out me here"];
+const classNames=["typing","welcome","myName","education","likes","findOut"]
 const timer = ms => new Promise(res => setTimeout(res, ms))
 var index = 0;
 var check=true;
@@ -16,14 +16,14 @@ async function type() {
         const selectedText = document.querySelector(`.${class_name}`);
 
         while(letter.length !== text.length){  
-            await timer(50) 
+            await timer(40) 
             letter = text.slice(0, ++index);
             selectedText.textContent = letter;
         }
 
         index = 0;
         clearInterval(run);
-        await timer(1000);
+        await timer(500);
         count++;
         check=true;      
     }        

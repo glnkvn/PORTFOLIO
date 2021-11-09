@@ -23,40 +23,21 @@
    --light-blue: rgb(183, 224, 240) ; 
 }
 
-.type p{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid var(--orange); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .05em; /* Adjust as needed */
-    animation: typing 2.2s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 40% }
-}
-  
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--orange); }
-}
-
 body{
     background-color: var(--light-orange);
 }
 
+.type{
+    padding-top: 100px;
+}
+
 
 .navbar-button {
-    margin-top: 25px;
-    margin-left: 60px;
+    margin-left: 20px;
     font-size: 30px;
     position: fixed;
     z-index: 100;
     cursor: pointer;
-    margin: 5px
 }
 
 #show-navbar-button {
@@ -79,7 +60,7 @@ body{
     height: 100vh;
     width: 22vw;
     background-color: var(--orange);
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 40px;
     transition: 0.5s;
     border-right: 5px solid var(--orange);
@@ -107,7 +88,9 @@ a:hover{
     color: var(--white);
 }
 
-
+h2{
+    padding-top: 20px;
+}
 
 
 #about{
@@ -254,9 +237,6 @@ header .topnav {
     bottom: 4px;
 }
 
-    
-
-
 .my-skills:hover {
     background: var(--orange);
     width: 187px;
@@ -285,13 +265,6 @@ header .topnav {
     height: 80px;
     padding-top: 20px;
 }
-
-/* h1{
-    background-color: rgb(53, 103, 133) ;
-    text-align: center;
-    padding: 2vh;
-    font-size: 50px;
-} */
 
 article{
     height: calc(100vh - var(--stripsheight));
@@ -376,7 +349,7 @@ h2{
     46%{top:0em}
     80%{top:0em;}
 }
-
+/* 
 @media only screen and (max-width: 900px){
 
     h1{
@@ -385,21 +358,10 @@ h2{
         padding-top: 7vh;
     }
 
-    header{
-        height: 20vh;
-    }
+
 
     .links{ 
         height: calc(19vh / 4);
-    }
-
-    header #myPhoto{
-        height: 20vh;
-        width: 24vw;
-    }
-
-    header h1{
-        width:56vw; 
     }
 
 
@@ -675,4 +637,4 @@ h2{
         grid-template-columns: repeat(1,auto);
     } 
 
-
+ */
