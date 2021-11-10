@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Jazz LET, fantasy;
+}
+
+:root{
+    --white: rgb(245, 242, 239);
+    --darker-orange:rgb(136, 79, 6);
+    --orange:rgb(201, 116, 5);
+    --dark-brown:rgb(139, 107, 46);
+    --dark-orange:rgb(221, 168, 54);
+    --dark-blue:rgb(5, 45, 119);
+    --blue:rgb(7, 49, 126);
+    /* --light-blue: rgb(113, 184, 224); */
+    --blanchedalmond:blanchedalmond;
+    --light-orange:rgb(245, 195, 88);
+    --dark-crimson:rgb(7, 7, 7);
+    /* --dark-crimson :rgb(43, 33, 33); */
+    --black:rgb(7, 7, 7);
+    --stripsheight: 12vh;
+    /* /* --orange:rgb(190, 112, 10); */
+    /* --blue:rgb(3, 28, 75); */
+   /* --light-blue: rgb(53, 103, 133) ;  */
+   /* --light-blue: rgb(141, 191, 219) */
+   --light-blue: rgb(183, 224, 240) ; 
+}
+
+body{
+    background-color: var(--light-orange);
+}
+
+.type{
+    padding-top: 100px;
+}
+
+.type h2{
+    color: var(--darker-orange);
+}
+
+
+.navbar-button {
+    margin-left: 20px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#show-navbar-button {
+    color: var(--dark-blue);  
+}
+
+#hide-navbar-button {
+    font-size: 50px; 
+}
+
+#hide-navbar-button:hover {
+    color: var(--orange);
+    transition: 0.2s;
+}
+
+#myPhoto{
+    margin-top: 40px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid var(--blue);
+    border-radius: 92%;
+    align-items: center;
+}
+
+
+.navbar {
+    margin-top: 10vh;
+    position: fixed;
+    z-index: 50;
+    height: 100vh;
+    width: 15vw;
+    background-color: var(--orange);
+    /* padding-top: 10px; */
+    padding-left: 40px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+#hide-navbar{
+    transform: translateX(-200%);
+}
+
+#show-navbar {
+    transform: translateX(0);
+}
+
+a {
+    display: block;
+    font-size: 24px;
+    padding-top: 50px; 
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark-crimson);   
+}
+
+a:hover{
+    color: var(--white);
+}
+
+h2{
+    padding-top: 30px;
+    text-shadow:1px 1px 4px #fff, 1px 1px 4px #fff;
+}
+
+
+#about{
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    text-align: center;
+    font-weight: 600;
+    background-color: var(--orange);
+    border-radius: 60px;
+    margin:30px 300px 30px 300px;
+    height: 80px;
+    font-size: 46px;
+    padding-top: 14px;
+}
+
+#welcome{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#firstInfo{
+    padding: 10px;
+    /* border: 10px solid var(--blue); */
+    margin: 50px 240px 60px 240px;
+    text-justify: inherit;
+    color: var(--dark-crimson);
+    font-size: 22px;
+    border-radius: 60px;
+}
+
+p{
+    font-weight: 500;
+}
+
+#firstInfoparaph{
+    padding-top: 15px;
+}
+
+#lastInfoparaph{
+    padding-bottom: 15px;
+}
+
+h1{
+    border-top: 5px solid var(--blue);
+    color:  var(--dark-crimson);
+    font-family: Jazz LET, fantasy;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 10vh;
+    text-align: center;
+    width: 50%;
+    display:inline-block;
+}
+
+section{
+    right: 0;   
+    display: block;  
+}
+
+
+
+
+#thechnical_skills{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: var(--orange);
+    border-radius: 60px;
+    margin:60px 300px 60px 300px;
+    height: 80px;
+    font-size: 46px;
+    padding-top: 14px;
+}
+
+header .topnav {
+    display:inline-flex;
+    padding: 0px;
+    margin: 0;
+    right: 0;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between; 
+    position: fixed;
+    top: 0;  
+    /* background-color: var(--blue); */
+}
+
+
+.topnav a {
+    top: 15px;
+    right: 25px;   
+    color:var(--dark-crimson);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 25px;
+    text-decoration: none;
+    overflow: hidden;
+    justify-content: center; 
+    font-weight: 800;
+}
+
+.topnav a:hover {
+    color:var(--white);
+}
+
+
+#skills {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: auto;
+}
+
+.iconify { 
+    margin: 18px;
+    width: 120px; 
+    height: 120px;
+}
+
+.my-skills {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+.skill-name {
+    visibility: hidden;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    color:var(--dark-crimson);
+    margin-bottom: 10px;
+    bottom: 4px;
+}
+
+.my-skills:hover {
+    background: var(--orange);
+    width: 187px;
+    height: 187px;
+    transition: 0.5s ease;
+}
+
+
+.my-skills:hover .skill-name {
+    visibility: visible;
+    padding: 25px 35px;
+    width: 175px;
+    height: 25px;
+    transition: 0.5s ease;
+}
+
+#projects{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: var(--orange);
+    border-radius: 60px;
+    margin:60px 300px 60px 300px;
+    height: 80px;
+    font-size: 46px;
+    padding-top: 14px;
+}
+
+article{
+    height: calc(100vh - var(--stripsheight));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article section {
+    width: calc(100vw/3);
+    border: 4px solid var(--blue);
+}
+
+h2{
+    padding-top: 5px;
+    text-align: center;
+    color: var(--orange );
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.project{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.sec{
+    display: inline-block;
+    background-color:var(--light-blue)
+}
+
+.sec form{
+    text-align: center;
+}
+
+#button1{
+    margin: 10px;
+    animation:bouncy 7s infinite linear;
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    transition: all 0.25s;
+    padding:0.3em 1em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    background-color:var(--blue);
+    color: var(--orange);
+    font-size: larger;
+    font-weight: bold;
+    border:0.12em solid var(--blue);
+}
+  
+#button1:hover{
+    color:var( --white);
+    background-color: var(--orange);
+    border:0.12em solid var(--light-blue);
+}
+
+#button2{
+    margin: 10px;
+    animation:bouncy 7s infinite linear;
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    transition: all 0.25s;
+    padding:0.3em 1em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    color: var(--orange);
+    font-size: larger;
+    font-weight: bold;
+    background-color:var(--blue);
+    border:0.12em solid var(--blue);
+}
+  
+#button2:hover{
+    color:var( --white);
+    background-color: var(--orange);
+    border:0.12em solid var(--light-blue);
+}
+
+@keyframes bouncy{
+    10%{top:0em}
+    35%{top:0.2em}
+    40%{top:-1em}
+    42%{top:0.2em}
+    44%{top:-0.3em}
+    46%{top:0em}
+    80%{top:0em;}
+}
+/* 
+@media only screen and (max-width: 900px){
+
+    h1{
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 7vh;
+    }
+
+
+
+    .links{ 
+        height: calc(19vh / 4);
+    }
+
+
+    .topnav a {
+        font-size: 21px;
+    }
+
+
+    #firstInfo{ 
+        margin: 40px 120px 40px 120px;
+    }
+
+    #about{
+        margin:30px 100px 30px 100px;
+    }
+
+    #thechnical_skills{
+        margin:30px 100px 30px 100px;
+    }
+
+    #projects{
+        margin:30px 100px 30px 100px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(4,auto);
+    }
+}
+
+
+@media only screen and (max-width: 780px){
+
+    h1{
+        font-size: 53px;
+        font-weight: 600;
+        padding-top: 6vh;
+    }
+
+    header{
+        height: 20vh;
+    }
+
+    .links{ 
+        height: calc(19vh / 4);
+    }
+
+    a{
+        font-size: 30px;
+    }
+
+    header #myPhoto{
+        height: 20vh;
+        width: 24vw;
+    }
+
+    header h1{
+        width:62vw; 
+    }
+    
+    .topnav a {
+        font-size: 18px;
+    }
+
+    article{
+        height: 90vh;
+    }
+    
+    article > section{
+        width: 50%;
+    }
+    
+    .project{
+        font-size: 0.8em;
+    }
+
+    #firstInfo{ 
+        margin: 30px 70px 30px 70px;
+    }
+
+    #about{
+        margin:30px 88px 30px 88px;
+    }
+
+    #thechnical_skills{
+        margin:30px 88px 30px 88px;
+    }
+
+    #projects{
+        margin:30px 88px 30px 88px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(3,auto);
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    h1{
+        font-size: 38px;
+        padding-top: 5vh;
+    }
+
+    header{
+        height: 15vh;
+    }
+
+    .links{ 
+        height: calc(14vh / 4);
+    }
+
+    header #myPhoto{
+        height: 15vh;
+        width: 32vw;
+    }
+
+    header h1{
+        width:54vw; 
+    }
+
+
+    .topnav a {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+
+    h1{
+        font-size: 32px;
+        padding-top: 4vh;
+    }
+
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 33vw;
+    }
+
+    header h1{
+        width:53vw; 
+    }
+
+
+    .topnav a {
+        font-size: 10px;
+    }
+    
+    main > article section{
+        width: 100vw;
+        
+    }
+
+    .project{
+        font-size: 0.6em;
+    }
+
+    #firstInfo{ 
+        margin: 30px 30px 30px 30px;
+    }
+
+    #about{
+        margin:30px 50px 30px 50px;
+    }
+
+    #thechnical_skills{
+        margin:30px 50px 30px 50px;
+    }
+
+    #projects{
+        margin:30px 50px 30px 50px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+   h1{
+        font-size: 30px;
+        padding-top: 2vh;
+    }
+
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 33vw;
+    }
+
+    header h1{
+        width:54vw; 
+    }
+
+
+    .topnav a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+
+
+    h1{
+        font-size: 25px;
+        padding-top: 2vh;
+    }
+
+    header{
+        height: 14vh;
+    }
+
+    .links{ 
+        height: calc(13vh / 4);
+    }
+
+    header #myPhoto{
+        height: 14vh;
+        width: 38vw;
+    }
+
+    header h1{
+        width:50vw; 
+    }
+
+
+    .topnav a {
+        font-size: 9px;
+    }
+
+    article > section{
+        width: 100%;
+    }
+    
+    .project{
+        font-size: 0.5em;
+    }
+
+    #firstInfo{ 
+        margin: 30px 15px 30px 15px;
+    }
+
+    #thechnical_skills{
+        margin:30px 22px 30px 22px;
+    }
+
+    #projects{
+        margin:30px 22px 30px 22px;
+    }
+
+    #about{
+        margin:30px 22px 30px 22px;
+    }
+
+    #skills {
+        grid-template-columns: repeat(1,auto);
+    } 
+
+ */

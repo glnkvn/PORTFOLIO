@@ -1,37 +1,197 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script defer src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script defer src="./static/js/navbar.js"></script>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <header>
-        <h1>Golnar Kaviani</h1>
-        <section>
-            <a href="./about.html" class = "links">about</a>
-            <a href="./projects.html" class="links">projects</a>
+        <!-- <div class="nav-btn" id="show-nav-btn">&#9776;</div> -->
+        <section class="topnav" >
+            <a href="#welcome" class = "links">About me</a>
+            <a href="#thechnical_skills" class="links">Skills</a>
+            <a href="#projects" class="links">Projects</a>
             <a href="./contact.html" class="links">contact me</a>
         </section>
-    
     </header>
+    <div class="navbar-button" id="show-navbar-button">&#9776; </div>
+    <nav class="navbar" id="hide-navbar">
+        <a href="#welcome">About me</a>
+        <a href="#thechnical_skills" >Skills</a>
+        <a href="#projects" >Projects</a>
+        <a href="./contact.html" >contact me</a>
+    </nav>
+
+    <div class="type">
+        <h2 class="typing"></h2>
+        <h2 class="welcome"></h2>
+        <h2 class="myName"></h2>
+        <h2 class="education"></h2>
+        <h2 class="likes"></h2>
+        <h2 class="findOut"></h2>
+    </div>
+
+    <img id="myPhoto" src='./images/Golnar.png' alt="Golnar photo" ></img>
+    
+    <p id ="about">More about me</p>
+    <div id="firstInfo">
+        <p id="firstInfoparaph">I recently achieved a First Class Honours degree at Computer Science at the University of York and I am currently being trained to be a full-stack web development at Futureproof.</p>
+        <br>
+        <p>I am a curious and logical thinker who enjoys problem solving and learning new skills. Also, I am passionate about coding and thechnology.</p>
+        <br>
+        <p>Generally, I am a social and energetic person, and I enjoys playing sports, travelling and spending time with my friends. I also enjoy watching movies, listening to music and cooking in my free time.</p>
+        <br>
+        <p id="lastInfoparaph"></pid>I am looking forward to start my career in technology, to apply and practice my knowledge in the real world, learn new skills and enhance my knowledge of cutting-edge technology.</p>
+    </div>
+
+    <p id ="thechnical_skills">Thechnical skills</p>
+    
+    <section id="skills">
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:python" data-inline="false"></span>
+            <p class="skill-name">Python</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:java" data-inline="false"></span>
+            <p class="skill-name">Java</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span>
+            <p class="skill-name">HTML</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span>
+            <p class="skill-name">CSS</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+            <p class="skill-name">JavaScript</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="vscode-icons:file-type-jest-snapshot" data-inline="false"></span>
+            <p class="skill-name">Jest</p>
+        </div>  
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:postgresql" data-inline="false"></span>
+            <p class="skill-name">Postgresql</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:mongodb"data-inline="false"></span>
+            <p class="skill-name">MongoDB</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:docker-icon" data-inline="false"></span>
+            <p class="skill-name">Docker</p>
+        </div>
+        <div class="my-skills">
+            <span class="iconify" data-icon="logos:react" data-inline="false"></span>
+            <p class="skill-name">React</p>
+        </div>
+    </section>
+    </div>
+
+    <p id ="projects">Projects</p>
+
+    <article>
+        <section class="sec">
+            <h2>PONG</h2>
+            <div class="project">
+                <br>
+                <p>A project is an individual or collaborative enterprise that is carefully planned and researched about by students. At schools, educational institutes and universities, a project is a research assignment - given to a student - which generally requires a larger amount of effort and more independent work than that involved in a normal essay assignment. It requires students to undertake their own fact-finding and analysis, either from library/internet research or from gathering data empirically. The written report that comes from the project is usually in the form of a dissertation, which will contain sections on the project's inception, analysis, findings and conclusions.</p>
+            </div>
+        </section>
+        <section class="sec">
+            <h2>Kroy</h2>
+            <div class="project">
+                <br>
+                <p>Developed a game for a software engineering group project module in the 2nd year by Java where the user has to destroy aliens spread throughout York at various landmarks, using fire engines.</p>
+                <br>
+                <ul>
+                    <li>Users have 6 fire engine a the begining</li>
+                    <li>Users are able to drive a fire engine around using the arrow keys</li>
+                    <li>Users can fire water when they get close to enemy fortresses(Fire truck water amount will decrease)</li>
+                    <li>Fire truck can refill their water by going to the fire station</li>
+                    <li>Enemy fortresses will be destroyed once you have shot enough water at them</li>
+                    <li>Users should avoid projectiles shot by the fortresses</li>
+                    <li>Every 30 seconds enemy petrols will be spawned from alive fortresses</li>
+                    <li>If your fire truck get destroyed another fire truck will be chosed for you automatically</li>
+                    <!-- <li>The faster user finish the game, the higher score they get</li> -->
+                </ul>
+            </div>
+       </section>
+        <section class="sec">
+            <h2>TravelShare</h2>
+            <div class="project">
+                <br>
+                <p>TravelShare is an anonymous blogging website that allows users to make posts about their travel experiences.</p>
+                <br>
+                <ul>
+                    <li>Users can choose 3 different category for their post(Sightseeing, food and drink, entertainment)</li>
+                    <li>Users can add a gif to their post</li>
+                    <li>Users are able comment and react to posts</li>
+                </ul>
+                <br>
+                <form action="https://bagels-journal-project.netlify.app/client/html/mainpage">
+                    <button class = "button" id="button1" type="submit">
+                        Visit website
+                    </button>
+                </form>
+            </div>   
+        </section>        
+        <section class="sec">
+            <h2>Solving MAPF Problem with SAT solver</h2>
+            <div class="project">
+                <br>
+                <p>As my final year project I wrote a program for multiple robots to visit some predefined patients in a one-floor hospital in the minimum possible time without exceeding thier energy.</p>
+                <p>This project required:</p>
+                <br>
+                <ul>
+                    <li>Getting familiar with constraint programming languages</li>
+                    <li>To modelled in Essence Prime language</li>
+                    <li>Use the SAT solver implemented in Savile Row(which is a modelling assessment tool) to solve the problem</li>
+                    <li>Each path can have different time</li>
+                    <li>Robots energy would decrease by moving to a different location</li>
+                    <li>No two robots can collide in their path</li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec">
+            <h2>Trabbit</h2>
+            <div class="project">
+                <br>
+                <p>Designed a habit tracker web app with the following functionalities:</p>
+                <br>
+                <ul>
+                    <li>Users are able to sign up or login to the website</li>
+                    <li>Users are able to choose a habit they want to track and choose how many days a week they wish to complete the habit</li>
+                    <li>Users are able to choose a habit they want to track (e.g water, exercise, 8 hours of sleep) and choose how many days a week they wish to complete the habit.</li>
+                    <li>Users are able to see if they have completed a habit for the day and see their most recent completion streak</li>
+                </ul>
+                <br>
+                <form action="https://trabbit.netlify.app">
+                    <button class = "button" id="button2" type="submit">
+                        Visit website
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="sec">
+            <h2>project6</h2>
+            <div class="project">
+                <br>
+                <p>A project is an individual or collaborative enterprise that is carefully planned and researched about by students. At schools, educational institutes and universities, a project is a research assignment - given to a student - which generally requires a larger amount of effort and more independent work than that involved in a normal essay assignment. It requires students to undertake their own fact-finding and analysis, either from library/internet research or from gathering data empirically. The written report that comes from the project is usually in the form of a dissertation, which will contain sections on the project's inception, analysis, findings and conclusions.</p>
+            </div>
+        </section>
+    </article>
+
     <br>
-    <p>My portfolio is coming soon!</p>
+    <br>
 
-    
-    <div class ="topics">Thechnical skills:</div>
-    <ul class="first">
-        <li>Java</li>
-        <li>Python</li>
-        <li>HTML</li>
-    </ul>
-
-    <div class ="topics">Interests:</div>
-    <ul id="interests">
-        <li>Movies</li>
-        <li>Sports</li>
-        <li>travel and cultural exchange</li>
-    </ul>
-
-
-    
+    <script defer src="./static/js/typingInfo.js"></script>
+   
 </body>
