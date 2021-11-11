@@ -16,14 +16,14 @@ async function type() {
         const selectedText = document.querySelector(`.${class_name}`);
 
         while(letter.length !== text.length){  
-            await timer(40) 
+            await timer(36) 
             letter = text.slice(0, ++index);
             selectedText.textContent = letter;
         }
 
         index = 0;
         clearInterval(run);
-        await timer(500);
+        await timer(400);
         count++;
         check=true;      
     }        
