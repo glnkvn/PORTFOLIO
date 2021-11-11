@@ -11,7 +11,7 @@
     --darker-orange:rgb(136, 79, 6);
     --orange:rgb(201, 116, 5);
     --dark-brown:rgb(139, 107, 46);
-    --dark-orange:rgb(221, 168, 54);
+    --orange-light:rgb(214, 158, 38);
     --dark-blue:rgb(5, 45, 119);
     --blue:rgb(7, 49, 126);
     /* --light-blue: rgb(113, 184, 224); */
@@ -37,7 +37,7 @@ body{
 }
 
 .type{
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .type h2{
@@ -54,12 +54,12 @@ body{
 }
 
 #show-navbar-button {
-    color: var(--dark-blue);  
+    color: var(--black);  
 }
 
 #hide-navbar-button {
     font-size: 50px; 
-    color: var(--dark-blue);  
+    color: var(--black);  
 }
 
 #hide-navbar-button:hover {
@@ -78,9 +78,34 @@ body{
     align-items: center;
 }
 
+.icon{
+    margin-top: 8px;
+    margin-left: 22px;
+    display: inline-block;
+}
+
+.icons{
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 6px;
+}
+
+
+#git{
+    margin-left: 90px;
+}
+
+.medias{
+    background-color: var(--light-orange);
+    width: 70px;
+    height: 70px;
+    border-color:  var(--light-orange);
+}
 
 .navbar {
-    margin-top: 10vh;
+    margin-top: 11vh;
     position: fixed;
     z-index: 50;
     height: 100vh;
@@ -90,6 +115,14 @@ body{
     padding-left: 40px;
     transition: 0.5s;
     border-radius: 8px;
+}
+
+#github:hover{
+    background-color: var(--orange-light);
+}
+
+#linkedIn:hover{
+    background-color: var(--orange-light);
 }
 
 #hide-navbar{
@@ -198,7 +231,7 @@ header .topnav {
     overflow: hidden;
     flex-direction: row;
     justify-content: space-between; 
-    position: fixed;
+    position: absolute;
     top: 0;  
 }
 
@@ -229,7 +262,7 @@ header .topnav {
 }
 
 
-.iconify { 
+.skill_icons { 
     margin: 18px;
     width: 120px; 
     height: 120px;
