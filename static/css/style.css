@@ -604,6 +604,8 @@ h3{
 
     .project{
         font-size: 17px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .topnav a{
@@ -639,11 +641,58 @@ h3{
     #firstInfo{
         margin: 45px 107px 45px 107px;
     }
+
+    .skill_icons { 
+        margin: 15px;
+        width: 102px; 
+        height: 102px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .my-skills:hover {
+        width: 167px;
+        height: 167px;
+    }
 }
 
 
-
 @media only screen and (max-width: 600px){
+
+    .project{
+        font-size: 17px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    #about{
+        margin:40px 140px 40px 140px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+    }
+
+    #projects{
+        margin:40px 140px 40px 140px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+    }
+
+    #thechnical_skills{
+        margin:40px 140px 40px 140px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+    }
+
+    #firstInfo{
+        margin: 45px 85px 45px 85px;
+    }
 
     .project{
         font-size: 16px;
@@ -664,11 +713,125 @@ h3{
         margin-right: 4px;
         margin-bottom: 3px;
     }
+
+    .icon{
+        margin-left: 15px;
+    }
     
     .medias{
         width: 60px;
         height: 60px;
     }
+
+    .skill_icons { 
+        margin: 15px;
+        width: 85px; 
+        height: 85px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .my-skills:hover {
+        width: 147px;
+        height: 147px;
+    }
+
+
+    .my-skills:hover .skill-name {
+        visibility: visible;
+        padding: 15px 20px;
+        width: 165px;
+        height: 25px;
+        transition: 0.5s ease;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+    .project{
+        font-size: 17px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    #about{
+        margin:30px 90px 30px 90px;
+        font-weight: 570;
+        font-size: 32px;
+        padding-top: 14px;
+    }
+
+    #projects{
+        margin:30px 90px 30px 90px;
+        font-weight: 570;
+        font-size: 32px;
+        padding-top: 14px;
+    }
+
+    #thechnical_skills{
+        margin:30px 90px 30px 90px;
+        font-weight: 570;
+        font-size: 32px;
+        padding-top: 14px;
+    }
+
+    #firstInfo{
+        margin: 30px 50px 30px 50px;
+    }
+
+    .topnav a{
+        font-size: 16px;
+        padding: 6px 6px;
+    }
+
+    .icons{
+        width: 40px;
+        height: 40px;
+        margin-right: 3px;
+        margin-bottom: 2px;
+    }
+
+    .icon{
+        margin-left: 12px;
+    }
+    
+    .medias{
+        width: 50px;
+        height: 50px;
+    }
+
+    .skill_icons { 
+        margin: 15px;
+        width: 85px; 
+        height: 85px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 115px;
+        height: 115px;
+    }
+    
+    .my-skills:hover {
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .my-skills:hover .skill-name {
+        visibility: visible;
+        padding: 15px 20px;
+        width: 165px;
+        height: 25px;
+        transition: 0.5s ease;
+    }
+
 }
 /* 
 @media only screen and (max-width: 900px){
