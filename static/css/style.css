@@ -177,7 +177,7 @@ a:hover{
     font-weight: 600;
     background-color: var(--orange);
     border-radius: 60px;
-    margin:40px 300px 40px 300px;
+    margin:40px 300px 10px 300px;
     height: 80px;
     font-size: 46px;
     padding-top: 14px;
@@ -194,7 +194,7 @@ a:hover{
 #firstInfo{
     text-align: justify;
     padding: 10px;
-    margin: 50px 240px 50px 240px;
+    margin: 20px 240px 20px 240px;
     text-justify: inherit;
     color: var(--dark-crimson);
     font-size: 22px;
@@ -365,12 +365,11 @@ h2{
     font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
-    display: inline-block;
 }
 
 .sec{
-    display: inline-block;
-    background-color:var(--light-blue)
+    background-color:var(--light-blue);
+    width: 100%;
 }
 
 .sec form{
@@ -453,7 +452,7 @@ h3{
     }
 
     #about{
-        margin:40px 250px 40px 250px;
+        margin:40px 250px 10px 250px;
     }
 
     #projects{
@@ -465,7 +464,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 50px 200px 50px 200px;
+        margin: 20px 200px 20px 200px;
     }
 
 }
@@ -478,7 +477,7 @@ h3{
     }
 
     #about{
-        margin:40px 230px 40px 230px;
+        margin:40px 230px 10px 230px;
         font-weight: 580;
         font-size: 42px;
         padding-top: 13px;
@@ -499,7 +498,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 50px 180px 50px 180px;
+        margin: 20px 180px 20px 180px;
     }
 
 }
@@ -512,7 +511,7 @@ h3{
     }
 
     #about{
-        margin:40px 200px 40px 200px;
+        margin:40px 200px 10px 200px;
         font-weight: 580;
         font-size: 40px;
         padding-top: 12px;
@@ -533,7 +532,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 50px 150px 50px 150px;
+        margin: 15px 150px 15px 150px;
     }
 
     .topnav a{
@@ -569,7 +568,7 @@ h3{
 @media only screen and (max-width: 760px){
 
     #about{
-        margin:40px 170px 40px 170px;
+        margin:30px 170px 5px 170px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -593,7 +592,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 45px 120px 45px 120px;
+        margin: 12px 120px 12px 120px;
     }
 
 }
@@ -621,7 +620,7 @@ h3{
     }
 
     #about{
-        margin:40px 158px 40px 158px;
+        margin:30px 158px 5px 158px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -642,7 +641,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 45px 107px 45px 107px;
+        margin: 10px 107px 10px 107px;
     }
 
     .skill_icons { 
@@ -666,7 +665,7 @@ h3{
 @media only screen and (max-width: 760px){
 
     #about{
-        margin:40px 150px 40px 150px;
+        margin:30px 150px 5px 150px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -690,7 +689,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 45px 95px 45px 95px;
+        margin: 8px 95px 8px 95px;
     }
 
 }
@@ -706,28 +705,28 @@ h3{
     }
 
     #about{
-        margin:35px 140px 35px 140px;
+        margin:25px 130px 5px 130px;
         font-weight: 570;
         font-size: 34px;
         padding-top: 12px;
     }
 
     #projects{
-        margin:35px 140px 35px 140px;
+        margin:35px 130px 35px 130px;
         font-weight: 570;
         font-size: 34px;
         padding-top: 12px;
     }
 
     #thechnical_skills{
-        margin:35px 140px 35px 140px;
+        margin:35px 130px 35px 130px;
         font-weight: 570;
         font-size: 34px;
         padding-top: 12px;
     }
 
     #firstInfo{
-        margin: 30px 85px 30px 85px;
+        margin: 6px 80px 6px 80px;
     }
 
     .project{
@@ -803,7 +802,7 @@ h3{
     }
 
     #about{
-        margin:30px 90px 30px 90px;
+        margin:20px 90px 5px 90px;
         font-weight: 570;
         font-size: 32px;
         padding-top: 14px;
@@ -824,7 +823,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 30px 50px 30px 50px;
+        margin: 4px 50px 4px 50px;
     }
 
     .topnav a{
@@ -884,7 +883,7 @@ h3{
 @media only screen and (max-width: 450px){
 
     #about{
-        margin:25px 70px 25px 70px;
+        margin:15px 70px 2px 70px;
         font-size: 28px;
         height: 60px;
     }
@@ -902,7 +901,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 25px 32px 25px 32px;
+        margin: 2px 32px 2px 32px;
     }
 
     .topnav a{
@@ -955,13 +954,18 @@ h3{
     .type{
         padding: 25px 25px 15px 25px;
     }
+
+    #myPhoto{
+        margin-top: 15px;
+        height:170px;
+    }
 }
 
 
 @media only screen and (max-width: 400px){
 
     #about{
-        margin:20px 58px 20px 58px;
+        margin:10px 58px 2px 58px;
         font-size: 25px;
         height: 50px;
         padding-top: 10px;
@@ -982,7 +986,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 25px 32px 25px 32px;
+        margin: 2px 32px 2px 32px;
     }
 
     .topnav a{
@@ -991,10 +995,10 @@ h3{
     }
 
     .icons{
-        width: 32px;
-        height: 32px;
-        margin-right: 4px;
-        margin-bottom: 3px;
+        width: 30px;
+        height: 30px;
+        margin-right: 6px;
+        margin-bottom: 5px;
     }
 
     .icon{
@@ -1033,295 +1037,90 @@ h3{
     }
 
     .type{
-        padding: 20px 25px 10px 25px;
-    }
-}
-/* 
-@media only screen and (max-width: 900px){
-
-    h1{
-        font-size: 60px;
-        font-weight: 600;
-        padding-top: 7vh;
-    }
-
-
-
-    .links{ 
-        height: calc(19vh / 4);
-    }
-
-
-    .topnav a {
-        font-size: 21px;
-    }
-
-
-    #firstInfo{ 
-        margin: 40px 120px 40px 120px;
-    }
-
-    #about{
-        margin:30px 100px 30px 100px;
-    }
-
-    #thechnical_skills{
-        margin:30px 100px 30px 100px;
-    }
-
-    #projects{
-        margin:30px 100px 30px 100px;
-    }
-
-    #skills {
-        grid-template-columns: repeat(4,auto);
+        padding: 8px 25px 8px 25px;
     }
 }
 
-
-@media only screen and (max-width: 780px){
-
-    h1{
-        font-size: 53px;
-        font-weight: 600;
-        padding-top: 6vh;
-    }
-
-    header{
-        height: 20vh;
-    }
-
-    .links{ 
-        height: calc(19vh / 4);
-    }
-
-    a{
-        font-size: 30px;
-    }
-
-    header #myPhoto{
-        height: 20vh;
-        width: 24vw;
-    }
-
-    header h1{
-        width:62vw; 
-    }
-    
-    .topnav a {
-        font-size: 18px;
-    }
-
-    article{
-        height: 90vh;
-    }
-    
-    article > section{
-        width: 50%;
-    }
-    
-    .project{
-        font-size: 0.8em;
-    }
-
-    #firstInfo{ 
-        margin: 30px 70px 30px 70px;
-    }
-
-    #about{
-        margin:30px 88px 30px 88px;
-    }
-
-    #thechnical_skills{
-        margin:30px 88px 30px 88px;
-    }
-
-    #projects{
-        margin:30px 88px 30px 88px;
-    }
-
-    #skills {
-        grid-template-columns: repeat(3,auto);
-    }
-    
-}
-
-@media only screen and (max-width: 600px){
-
-    h1{
-        font-size: 38px;
-        padding-top: 5vh;
-    }
-
-    header{
-        height: 15vh;
-    }
-
-    .links{ 
-        height: calc(14vh / 4);
-    }
-
-    header #myPhoto{
-        height: 15vh;
-        width: 32vw;
-    }
-
-    header h1{
-        width:54vw; 
-    }
-
-
-    .topnav a {
-        font-size: 15px;
-    }
-}
-
-
-@media only screen and (max-width: 540px){
-
-    h1{
-        font-size: 32px;
-        padding-top: 4vh;
-    }
-
-    header{
-        height: 14vh;
-    }
-
-    .links{ 
-        height: calc(13vh / 4);
-    }
-
-    header #myPhoto{
-        height: 14vh;
-        width: 33vw;
-    }
-
-    header h1{
-        width:53vw; 
-    }
-
-
-    .topnav a {
-        font-size: 10px;
-    }
-    
-    main > article section{
-        width: 100vw;
-        
-    }
-
-    .project{
-        font-size: 0.6em;
-    }
-
-    #firstInfo{ 
-        margin: 30px 30px 30px 30px;
-    }
-
-    #about{
-        margin:30px 50px 30px 50px;
-    }
-
-    #thechnical_skills{
-        margin:30px 50px 30px 50px;
-    }
-
-    #projects{
-        margin:30px 50px 30px 50px;
-    }
-
-    #skills {
-        grid-template-columns: repeat(2,auto);
-    }
-}
-
-@media only screen and (max-width: 450px){
-
-   h1{
-        font-size: 30px;
-        padding-top: 2vh;
-    }
-
-    header{
-        height: 14vh;
-    }
-
-    .links{ 
-        height: calc(13vh / 4);
-    }
-
-    header #myPhoto{
-        height: 14vh;
-        width: 33vw;
-    }
-
-    header h1{
-        width:54vw; 
-    }
-
-
-    .topnav a {
-        font-size: 12px;
-    }
-}
 
 @media only screen and (max-width: 360px){
 
-
-    h1{
-        font-size: 25px;
-        padding-top: 2vh;
-    }
-
-    header{
-        height: 14vh;
-    }
-
-    .links{ 
-        height: calc(13vh / 4);
-    }
-
-    header #myPhoto{
-        height: 14vh;
-        width: 38vw;
-    }
-
-    header h1{
-        width:50vw; 
-    }
-
-
-    .topnav a {
-        font-size: 9px;
-    }
-
-    article > section{
-        width: 100%;
-    }
-    
-    .project{
-        font-size: 0.5em;
-    }
-
-    #firstInfo{ 
-        margin: 30px 15px 30px 15px;
-    }
-
-    #thechnical_skills{
-        margin:30px 22px 30px 22px;
+    #about{
+        margin:10px 48px 2px 48px;
+        font-size: 22px;
+        height: 45px;
+        padding-top: 8px;
     }
 
     #projects{
-        margin:30px 22px 30px 22px;
+        margin:10px 48px 2px 48px;
+        font-size: 22px;
+        height: 45px;
+        padding-top: 8px;
     }
 
-    #about{
-        margin:30px 22px 30px 22px;
+    #thechnical_skills{
+        margin:10px 48px 2px 48px;
+        font-size: 22px;
+        height: 45px;
+        padding-top: 8px;
     }
 
-    #skills {
-        grid-template-columns: repeat(1,auto);
-    } 
+    #firstInfo{
+        margin: 2px 25px 2px 25px;
+    }
 
- */
+    .topnav a{
+        font-size: 11px;
+        padding: 3px 3px;
+    }
+
+    .icons{
+        width: 30px;
+        height: 30px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+    }
+
+    .icon{
+        margin-left: 7px;
+    }
+    
+    .medias{
+        width: 37px;
+        height: 37px;
+    }
+
+    .skill_icons { 
+        margin: 7px;
+        width: 55px; 
+        height: 55px;
+    }
+
+    #git{
+        margin-left: 50px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 68px;
+        height: 68px;
+    }
+    
+    .my-skills:hover {
+        width: 75px;
+        height: 75px;
+    }
+
+    h2{
+        font-size: 18px;
+        padding-top: 7px;
+    }
+
+    .navbar {
+        width: 150px;
+    }
+
+    .type{
+        padding: 5px 25px 5px 25px;
+    }
+}
