@@ -963,16 +963,22 @@ h3{
     #about{
         margin:20px 58px 20px 58px;
         font-size: 25px;
+        height: 50px;
+        padding-top: 10px;
     }
 
     #projects{
-        margin:25px 70px 25px 70px;
-        font-size: 28px;
+        margin:20px 58px 20px 58px;
+        font-size: 25px;
+        height: 50px;
+        padding-top: 10px;
     }
 
     #thechnical_skills{
-        margin:25px 70px 25px 70px;
-        font-size: 28px;
+        margin:20px 58px 20px 58px;
+        font-size: 25px;
+        height: 50px;
+        padding-top: 10px;
     }
 
     #firstInfo{
@@ -980,54 +986,54 @@ h3{
     }
 
     .topnav a{
-        font-size: 14px;
-        padding: 5px 5px;
+        font-size: 12px;
+        padding: 4px 4px;
     }
 
     .icons{
-        width: 36px;
-        height: 36px;
-        margin-right: 3px;
-        margin-bottom: 2px;
+        width: 32px;
+        height: 32px;
+        margin-right: 4px;
+        margin-bottom: 3px;
     }
 
     .icon{
-        margin-left: 11px;
+        margin-left: 9px;
     }
     
     .medias{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .skill_icons { 
-        margin: 15px;
-        width: 70px; 
-        height: 70px;
+        margin: 10px;
+        width: 60px; 
+        height: 60px;
     }
     
     .my-skills {
         position: relative;
-        width: 100px;
-        height: 100px;
+        width: 85px;
+        height: 85px;
     }
     
     .my-skills:hover {
-        width: 105px;
-        height: 105px;
+        width: 90px;
+        height: 90px;
     }
 
     h2{
-        font-size: 22px;
-        padding-top: 13px;
+        font-size: 20px;
+        padding-top: 11px;
     }
 
     .navbar {
-        width: 190px;
+        width: 170px;
     }
 
     .type{
-        padding: 25px 25px 15px 25px;
+        padding: 20px 25px 10px 25px;
     }
 }
 /* 
