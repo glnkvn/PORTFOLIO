@@ -573,6 +573,7 @@ h3{
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
+        height: 70px;
     }
 
     #projects{
@@ -580,6 +581,7 @@ h3{
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
+        height: 70px;
     }
 
     #thechnical_skills{
@@ -587,6 +589,7 @@ h3{
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
+        height: 70px;
     }
 
     #firstInfo{
@@ -660,6 +663,39 @@ h3{
     }
 }
 
+@media only screen and (max-width: 760px){
+
+    #about{
+        margin:40px 150px 40px 150px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+        height: 70px;
+    }
+
+    #projects{
+        margin:40px 150px 40px 150px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+        height: 70px;
+    }
+
+    #thechnical_skills{
+        margin:40px 170px 40px 170px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+        height: 70px;
+    }
+
+    #firstInfo{
+        margin: 45px 95px 45px 95px;
+    }
+
+}
+
+
 
 @media only screen and (max-width: 600px){
 
@@ -670,23 +706,23 @@ h3{
     }
 
     #about{
-        margin:40px 140px 40px 140px;
+        margin:35px 140px 35px 140px;
         font-weight: 570;
-        font-size: 36px;
+        font-size: 34px;
         padding-top: 12px;
     }
 
     #projects{
-        margin:40px 140px 40px 140px;
+        margin:35px 140px 35px 140px;
         font-weight: 570;
-        font-size: 36px;
+        font-size: 34px;
         padding-top: 12px;
     }
 
     #thechnical_skills{
-        margin:40px 140px 40px 140px;
+        margin:35px 140px 35px 140px;
         font-weight: 570;
-        font-size: 36px;
+        font-size: 34px;
         padding-top: 12px;
     }
 
@@ -699,7 +735,8 @@ h3{
     }
 
     h2{
-        font-size: 30px;
+        font-size: 28px;
+        padding-top: 18px;
     }
 
     .topnav a{
@@ -830,6 +867,11 @@ h3{
         width: 165px;
         height: 25px;
         transition: 0.5s ease;
+    }
+
+    h2{
+        font-size: 25px;
+        padding-top: 15px;
     }
 
 }
