@@ -78,6 +78,31 @@ body{
     align-items: center;
 }
 
+.icon{
+    margin-top: 8px;
+    margin-left: 22px;
+    display: inline-block;
+}
+
+.icons{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+
+#git{
+    margin-left: 90px;
+}
+
+.medias{
+    background-color: var(--light-orange);
+    width: 80px;
+    height: 80px;
+    border-color:  var(--light-orange);
+}
 
 .navbar {
     margin-top: 10vh;
@@ -229,7 +254,7 @@ header .topnav {
 }
 
 
-.iconify { 
+.skill_icons { 
     margin: 18px;
     width: 120px; 
     height: 120px;
