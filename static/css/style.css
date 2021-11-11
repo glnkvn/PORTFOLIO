@@ -2,13 +2,15 @@
     margin: 0;
     box-sizing: border-box;
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: "Jazz LET", "fantasy";
+    /* font-family:  fantasy;
+     */
+    font-family: 'Dosis', sans-serif;
     
 }
 
 :root{
     --white: rgb(245, 242, 239);
-    --darker-orange:rgb(136, 79, 6);
+    --darker-orange:rgb(0, 0, 0);
     --orange:rgb(201, 116, 5);
     --dark-brown:rgb(139, 107, 46);
     --orange-light:rgb(214, 158, 38);
@@ -78,6 +80,12 @@ body{
     align-items: center;
 }
 
+.nav_icon{
+    margin-top: 45px;
+    margin-left: 10px;
+    display: block;
+}
+
 .icon{
     margin-top: 8px;
     margin-left: 22px;
@@ -104,8 +112,15 @@ body{
     border-color:  var(--light-orange);
 }
 
+.nav_medias{
+    background-color: var(--orange);
+    width: 70px;
+    height: 70px;
+    border-color:  var(--orange);
+}
+
 .navbar {
-    margin-top: 11vh;
+    margin-top: 12vh;
     position: fixed;
     z-index: 50;
     height: 100vh;
@@ -123,6 +138,14 @@ body{
 
 #linkedIn:hover{
     background-color: var(--orange-light);
+}
+
+#nav_github:hover{
+    background-color: var(--white);
+}
+
+#nav_linkedIn:hover{
+    background-color: var(--white);
 }
 
 #hide-navbar{
@@ -343,8 +366,8 @@ h2{
 }
 
 .project{
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline-block;
 }
 
@@ -359,7 +382,7 @@ h2{
 
 #button1{
     margin: 10px;
-    animation:bouncy 7s infinite linear;
+    animation:bouncy 8s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
@@ -382,7 +405,7 @@ h2{
 
 #button2{
     margin: 10px;
-    animation:bouncy 7s infinite linear;
+    animation:bouncy 8s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
@@ -408,9 +431,9 @@ h2{
     35%{top:0.2em}
     40%{top:-1em}
     42%{top:0.2em}
-    44%{top:-0.3em}
+    44%{top:-0.2em}
     46%{top:0em}
-    80%{top:0em;}
+    60%{top:0em;}
 }
 
 footer{
