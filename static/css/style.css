@@ -727,7 +727,7 @@ h3{
     }
 
     #firstInfo{
-        margin: 45px 85px 45px 85px;
+        margin: 30px 85px 30px 85px;
     }
 
     .project{
@@ -785,6 +785,11 @@ h3{
         height: 25px;
         transition: 0.5s ease;
     }
+
+    .type{
+        padding: 35px 25px 25px 25px;
+    }
+    
 
 }
 
@@ -874,6 +879,156 @@ h3{
         padding-top: 15px;
     }
 
+}
+
+@media only screen and (max-width: 450px){
+
+    #about{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+        height: 60px;
+    }
+
+    #projects{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+        height: 60px;
+    }
+
+    #thechnical_skills{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+        height: 60px;
+    }
+
+    #firstInfo{
+        margin: 25px 32px 25px 32px;
+    }
+
+    .topnav a{
+        font-size: 14px;
+        padding: 5px 5px;
+    }
+
+    .icons{
+        width: 36px;
+        height: 36px;
+        margin-right: 3px;
+        margin-bottom: 2px;
+    }
+
+    .icon{
+        margin-left: 11px;
+    }
+    
+    .medias{
+        width: 45px;
+        height: 45px;
+    }
+
+    .skill_icons { 
+        margin: 15px;
+        width: 70px; 
+        height: 70px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .my-skills:hover {
+        width: 105px;
+        height: 105px;
+    }
+
+    h2{
+        font-size: 22px;
+        padding-top: 13px;
+    }
+
+    .navbar {
+        width: 190px;
+    }
+
+    .type{
+        padding: 25px 25px 15px 25px;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+
+    #about{
+        margin:20px 58px 20px 58px;
+        font-size: 25px;
+    }
+
+    #projects{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+    }
+
+    #thechnical_skills{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+    }
+
+    #firstInfo{
+        margin: 25px 32px 25px 32px;
+    }
+
+    .topnav a{
+        font-size: 14px;
+        padding: 5px 5px;
+    }
+
+    .icons{
+        width: 36px;
+        height: 36px;
+        margin-right: 3px;
+        margin-bottom: 2px;
+    }
+
+    .icon{
+        margin-left: 11px;
+    }
+    
+    .medias{
+        width: 45px;
+        height: 45px;
+    }
+
+    .skill_icons { 
+        margin: 15px;
+        width: 70px; 
+        height: 70px;
+    }
+    
+    .my-skills {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .my-skills:hover {
+        width: 105px;
+        height: 105px;
+    }
+
+    h2{
+        font-size: 22px;
+        padding-top: 13px;
+    }
+
+    .navbar {
+        width: 190px;
+    }
+
+    .type{
+        padding: 25px 25px 15px 25px;
+    }
 }
 /* 
 @media only screen and (max-width: 900px){
