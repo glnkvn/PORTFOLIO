@@ -81,7 +81,7 @@ body{
 }
 
 .nav_icon{
-    margin-top: 45px;
+    margin-top: 50px;
     margin-left: 10px;
     display: block;
 }
@@ -171,7 +171,7 @@ a:hover{
 
 h2{
     padding-top: 30px;
-    text-shadow:1px 1px 4px #fff, 1px 1px 4px #fff;
+    text-shadow:1px 1px 3px #fff, 1px 1px 3px #fff;
 }
 
 
@@ -205,6 +205,7 @@ h2{
 }
 
 p{
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -361,6 +362,7 @@ h2{
 }
 
 .project{
+    font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
     display: inline-block;
