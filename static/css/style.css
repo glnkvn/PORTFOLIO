@@ -38,7 +38,7 @@ body{
 }
 
 .type{
-    padding: 60px 25px 30px 25px;
+    padding: 50px 25px 30px 25px;
 }
 
 .type h2{
@@ -777,12 +777,16 @@ h3{
     }
 
 
+    .skill-name {
+        font-size: 15px;
+        margin-bottom: 8px;
+        bottom: 4px;
+    }
+    
     .my-skills:hover .skill-name {
-        visibility: visible;
-        padding: 15px 20px;
-        width: 165px;
+        padding: 25px 35px;
+        width: 145px;
         height: 25px;
-        transition: 0.5s ease;
     }
 
     .type{
@@ -865,12 +869,16 @@ h3{
     }
 
 
+    .skill-name {
+        font-size: 14px;
+        margin-bottom: 2px;
+        bottom: 2px;
+    }
+    
     .my-skills:hover .skill-name {
-        visibility: visible;
-        padding: 15px 20px;
-        width: 165px;
+        padding: 18px 23px;
+        width: 120px;
         height: 25px;
-        transition: 0.5s ease;
     }
 
     h2{
@@ -885,19 +893,20 @@ h3{
     #about{
         margin:15px 70px 2px 70px;
         font-size: 28px;
-        height: 60px;
+        height: 55px;
+        padding-top: 11px;
     }
 
     #projects{
         margin:25px 70px 25px 70px;
         font-size: 28px;
-        height: 60px;
+        height: 55px;
     }
 
     #thechnical_skills{
         margin:25px 70px 25px 70px;
         font-size: 28px;
-        height: 60px;
+        height: 55px;
     }
 
     #firstInfo{
@@ -942,6 +951,18 @@ h3{
         height: 105px;
     }
 
+    .skill-name {
+        font-size: 12px;
+        margin-bottom: 2px;
+        bottom: 2px;
+    }
+    
+    .my-skills:hover .skill-name {
+        padding: 15px 20px;
+        width: 110px;
+        height: 25px;
+    }
+
     h2{
         font-size: 22px;
         padding-top: 13px;
@@ -967,22 +988,22 @@ h3{
     #about{
         margin:10px 58px 2px 58px;
         font-size: 25px;
-        height: 50px;
+        height: 45px;
         padding-top: 10px;
     }
 
     #projects{
-        margin:20px 58px 20px 58px;
+        margin:30px 58px 20px 58px;
         font-size: 25px;
-        height: 50px;
-        padding-top: 10px;
+        height: 45px;
+        padding-top: 13px;
     }
 
     #thechnical_skills{
         margin:20px 58px 20px 58px;
         font-size: 25px;
-        height: 50px;
-        padding-top: 10px;
+        height: 45px;
+        padding-top: 13px;
     }
 
     #firstInfo{
@@ -1027,6 +1048,18 @@ h3{
         height: 90px;
     }
 
+    .skill-name {
+        font-size: 11px;
+        margin-bottom: 2px;
+        bottom: 2px;
+    }
+    
+    .my-skills:hover .skill-name {
+        padding: 12px 17px;
+        width: 100px;
+        height: 25px;
+    }
+
     h2{
         font-size: 20px;
         padding-top: 11px;
@@ -1047,12 +1080,12 @@ h3{
     #about{
         margin:10px 48px 2px 48px;
         font-size: 22px;
-        height: 45px;
+        height: 42px;
         padding-top: 8px;
     }
 
     #projects{
-        margin:10px 48px 2px 48px;
+        margin:10px 48px 10px 48px;
         font-size: 22px;
         height: 45px;
         padding-top: 8px;
