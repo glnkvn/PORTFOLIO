@@ -1,8 +1,9 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: Jazz LET, fantasy; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Jazz LET, fantasy;
+    
 }
 
 :root{
@@ -29,6 +30,7 @@
 
 body{
     background-color: var(--light-orange);
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .type{
@@ -371,6 +373,20 @@ h2{
     46%{top:0em}
     80%{top:0em;}
 }
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: var(--orange);
+    position: fixed;
+    bottom: 0;
+}
+
+h3{
+    text-align: center;
+    padding-top: 6px;
+}
+
 /* 
 @media only screen and (max-width: 900px){
 
