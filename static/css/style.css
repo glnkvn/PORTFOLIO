@@ -13,6 +13,7 @@
     --darker-orange:rgb(112, 57, 12);
     --orange:rgb(201, 116, 5);
     --dark-brown:rgb(139, 107, 46);
+    --orange-lightt:rgb(196, 140, 20);
     --orange-light:rgb(214, 158, 38);
     --dark-blue:rgb(5, 45, 119);
     --blue:rgb(7, 49, 126);
@@ -377,14 +378,13 @@ h2{
 }
 
 #button1{
-    margin: 10px;
-    animation:bouncy 8s infinite linear;
+    margin: 8px;
+    animation:bouncy 10s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
-    transition: all 0.25s;
-    padding:0.3em 1em;
-    margin:0 0.3em 0.3em 0;
+    transition:  0.25s;
+    padding:10px 12px;
     border-radius:0.15em;
     background-color:var(--blue);
     color: var(--orange);
@@ -400,14 +400,13 @@ h2{
 }
 
 #button2{
-    margin: 10px;
-    animation:bouncy 8s infinite linear;
+    margin: 8px;
+    animation:bouncy 10s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
-    transition: all 0.25s;
-    padding:0.3em 1em;
-    margin:0 0.3em 0.3em 0;
+    transition: 0.25s;
+    padding:10px 12px;
     border-radius:0.15em;
     color: var(--orange);
     font-size: larger;
@@ -450,17 +449,12 @@ label{
 }
 
 #contact{
-    padding-top: 20px;
-    padding-bottom: 50px;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
-    background-color: var(--orange);
-    border-radius: 60px;
-    margin:80px 300px 40px 300px;
-    height: 80px;
+    background-color: var(--light-orange);
+    margin:50px 300px 40px 300px;
     font-size: 46px;
-    padding-top: 12px;
 }
 
 .contact{
@@ -469,7 +463,7 @@ label{
 }
 
 #information{
-    padding-left: 35vw;
+    padding-left: 30vw;
     width: 50%;
 }
 
@@ -496,7 +490,7 @@ label{
     color: var(--orange);
     font-size: larger;
     font-weight: bold;
-    /* margin: 10px; */
+    padding:10px 12px;
 }
 
 #massage-submit:hover{
@@ -524,7 +518,7 @@ label{
     }
 
     #contact{
-        margin:70px 250px 40px 250px;
+        margin:50px 250px 40px 250px;
     }
 
     #firstInfo{
@@ -562,7 +556,7 @@ label{
     }
 
     #contact{
-        margin:70px 230px 40px 230px;
+        margin:50px 230px 40px 230px;
         font-weight: 580;
         font-size: 42px;
         padding-top: 13px;
@@ -573,7 +567,9 @@ label{
     }
 
     #information{
-        padding-left: 30vw;
+        padding-left: 27
+        
+        vw;
     }
 
 }
@@ -607,7 +603,7 @@ label{
     }
 
     #contact{
-        margin:70px 200px 40px 200px;
+        margin:45px 200px 40px 200px;
         font-weight: 580;
         font-size: 40px;
         padding-top: 12px;
@@ -687,7 +683,7 @@ label{
     }
 
     #information{
-        padding-left: 25vw;
+        padding-left: 24vw;
     }
 
 }
