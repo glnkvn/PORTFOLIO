@@ -445,6 +445,10 @@ h3{
     padding-top: 18px;
 }
 
+label{
+    font-size: larger;
+}
+
 #contact{
     padding-top: 20px;
     padding-bottom: 50px;
@@ -459,18 +463,14 @@ h3{
     padding-top: 12px;
 }
 
-/* #contact-form{
-    display: inline-block;
-} */
-
 .contact{
     position: relative;
     display:inline-block;
 }
 
 #information{
-    padding: 0px 10px 0px 260px;
-    width: 50%;
+    margin-left: 30vw;
+    width: 20%;
 }
 
 #description{
@@ -486,7 +486,23 @@ label{
 }
 
 #massage-submit{
-    justify-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center;
+    background-color:var(--blue);
+    color: var(--orange);
+    font-size: larger;
+    font-weight: bold;
+    /* margin: 10px; */
+}
+
+#massage-submit:hover{
+    color:var( --white);
+    background-color: var(--orange);
+    border:0.12em solid var(--blue);
 }
 
 @media only screen and (max-width: 1280px){
