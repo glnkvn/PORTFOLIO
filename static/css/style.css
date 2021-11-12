@@ -457,7 +457,7 @@ label{
     font-weight: 600;
     background-color: var(--orange);
     border-radius: 60px;
-    margin:50px 300px 40px 300px;
+    margin:80px 300px 40px 300px;
     height: 80px;
     font-size: 46px;
     padding-top: 12px;
@@ -489,8 +489,8 @@ label{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-top: 35px;
     align-items: center;
     background-color:var(--blue);
     color: var(--orange);
@@ -524,7 +524,7 @@ label{
     }
 
     #contact{
-        margin:40px 250px 40px 250px;
+        margin:70px 250px 40px 250px;
     }
 
     #firstInfo{
@@ -562,7 +562,7 @@ label{
     }
 
     #contact{
-        margin:40px 230px 40px 230px;
+        margin:70px 230px 40px 230px;
         font-weight: 580;
         font-size: 42px;
         padding-top: 13px;
@@ -607,7 +607,7 @@ label{
     }
 
     #contact{
-        margin:40px 200px 40px 200px;
+        margin:70px 200px 40px 200px;
         font-weight: 580;
         font-size: 40px;
         padding-top: 12px;
@@ -659,7 +659,7 @@ label{
     }
 
     #projects{
-        margin:40px 170px 40px 170px;
+        margin:60px 170px 40px 170px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -722,7 +722,7 @@ label{
     }
 
     #projects{
-        margin:40px 158px 40px 158px;
+        margin:50px 158px 40px 158px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -791,7 +791,7 @@ label{
     }
 
     #contact{
-        margin:40px 170px 40px 170px;
+        margin:45px 170px 40px 170px;
         font-weight: 570;
         font-size: 36px;
         padding-top: 12px;
@@ -836,7 +836,7 @@ label{
     }
 
     #contact{
-        margin:35px 130px 35px 130px;
+        margin:45px 130px 35px 130px;
         font-weight: 570;
         font-size: 34px;
         padding-top: 12px;
