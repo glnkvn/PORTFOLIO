@@ -236,8 +236,29 @@
         </section>
     </article>
 
-    <br>
-    <br>
+
+    <p id ="contact">Contact me</p>
+    <form action="https://formspree.io/f/mvodezbo" method="POST" id="contact-form" autocomplete="off">
+        <div class="contact" id="information">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="_replyto" placeholder="Email" required>
+            <label for="number">Number</label>
+            <br>
+            <input type="text" id="number" name="number" placeholder="Number">
+        </div>
+        <div class="contact" id="description">
+            <label for="text">Maessage</label>
+            <br>
+            <textarea name="TestInfo" placeholder="Tell me about an opportunity" id="text" cols="40" rows="7"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Send" id="massage-submit">
+    </form>
+
 
     <script defer src="./static/js/typingInfo.js"></script>
     
