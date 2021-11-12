@@ -378,14 +378,13 @@ h2{
 }
 
 #button1{
-    margin: 10px;
-    animation:bouncy 8s infinite linear;
+    margin: 8px;
+    animation:bouncy 10s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
-    transition: all 0.25s;
-    padding:0.3em 1em;
-    margin:0 0.3em 0.3em 0;
+    transition:  0.25s;
+    padding:10px 12px;
     border-radius:0.15em;
     background-color:var(--blue);
     color: var(--orange);
@@ -401,14 +400,13 @@ h2{
 }
 
 #button2{
-    margin: 10px;
-    animation:bouncy 8s infinite linear;
+    margin: 8px;
+    animation:bouncy 10s infinite linear;
     position:relative;
     display:inline-block;
     text-decoration:none;
-    transition: all 0.25s;
-    padding:0.3em 1em;
-    margin:0 0.3em 0.3em 0;
+    transition: 0.25s;
+    padding:10px 12px;
     border-radius:0.15em;
     color: var(--orange);
     font-size: larger;
@@ -465,7 +463,7 @@ label{
 }
 
 #information{
-    padding-left: 35vw;
+    padding-left: 30vw;
     width: 50%;
 }
 
@@ -492,7 +490,7 @@ label{
     color: var(--orange);
     font-size: larger;
     font-weight: bold;
-    /* margin: 10px; */
+    padding:10px 12px;
 }
 
 #massage-submit:hover{
@@ -569,7 +567,9 @@ label{
     }
 
     #information{
-        padding-left: 30vw;
+        padding-left: 27
+        
+        vw;
     }
 
 }
@@ -603,7 +603,7 @@ label{
     }
 
     #contact{
-        margin:450px 200px 40px 200px;
+        margin:45px 200px 40px 200px;
         font-weight: 580;
         font-size: 40px;
         padding-top: 12px;
@@ -683,7 +683,7 @@ label{
     }
 
     #information{
-        padding-left: 25vw;
+        padding-left: 24vw;
     }
 
 }
