@@ -17,7 +17,7 @@
             <a href="#about" class = "links">About me</a>
             <a href="#thechnical_skills" class="links">Skills</a>
             <a href="#projects" class="links">Projects</a>
-            <a href="./contact.html" class="links">Contact me</a>
+            <a href="#contact" class="links">Contact me</a>
         </section>
     </header>
 
@@ -26,7 +26,7 @@
         <a href="#about">About me</a>
         <a href="#thechnical_skills" >Skills</a>
         <a href="#projects" >Projects</a>
-        <a href="./contact.html" >Contact me</a>
+        <a href="#contact" >Contact me</a>
         <form class="nav_icon"  action="https://github.com/glnkvn">
             <button class="nav_medias" id="nav_github" type="submit">
                 <span class="iconify icons"  data-icon="iconoir:github"></span>
@@ -236,8 +236,30 @@
         </section>
     </article>
 
-    <br>
-    <br>
+
+    <p id ="contact">Contact me</p>
+    <form action="https://formspree.io/f/mvodezbo" method="POST" id="contact-form" autocomplete="off">
+        <div class="contact" id="information">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="_replyto" placeholder="Email" required>
+            <label for="number">Number</label>
+            <br>
+            <input type="text" id="number" name="number" placeholder="Number">
+        </div>
+        <div class="contact" id="description">
+            <br>
+            <label for="text">Maessage</label>
+            <br>
+            <textarea name="TestInfo" placeholder="Tell me about your job opportunity" id="text" cols="50" rows="7"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Send your message" id="massage-submit">
+    </form>
+
 
     <script defer src="./static/js/typingInfo.js"></script>
     
