@@ -464,13 +464,13 @@ label{
 }
 
 .contact{
-    position: relative;
+    /* position: relative; */
     display:inline-block;
 }
 
 #information{
-    margin-left: 30vw;
-    width: 20%;
+    padding-left: 35vw;
+    width: 50%;
 }
 
 #description{
@@ -489,8 +489,8 @@ label{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     align-items: center;
     background-color:var(--blue);
     color: var(--orange);
@@ -520,6 +520,10 @@ label{
     }
 
     #thechnical_skills{
+        margin:40px 250px 40px 250px;
+    }
+
+    #contact{
         margin:40px 250px 40px 250px;
     }
 
@@ -557,8 +561,19 @@ label{
         padding-top: 13px;
     }
 
+    #contact{
+        margin:40px 230px 40px 230px;
+        font-weight: 580;
+        font-size: 42px;
+        padding-top: 13px;
+    }
+
     #firstInfo{
         margin: 20px 180px 20px 180px;
+    }
+
+    #information{
+        padding-left: 30vw;
     }
 
 }
@@ -591,6 +606,13 @@ label{
         padding-top: 12px;
     }
 
+    #contact{
+        margin:40px 200px 40px 200px;
+        font-weight: 580;
+        font-size: 40px;
+        padding-top: 12px;
+    }
+
     #firstInfo{
         margin: 15px 150px 15px 150px;
     }
@@ -612,6 +634,7 @@ label{
     #git{
         margin-left: 75px;
     }
+
 
 }
 
@@ -651,8 +674,20 @@ label{
         height: 70px;
     }
 
+    #contact{
+        margin:40px 170px 40px 170px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+        height: 70px;
+    }
+
     #firstInfo{
         margin: 12px 120px 12px 120px;
+    }
+
+    #information{
+        padding-left: 25vw;
     }
 
 }
@@ -694,6 +729,13 @@ label{
     }
 
     #thechnical_skills{
+        margin:40px 158px 40px 158px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+    }
+
+    #contact{
         margin:40px 158px 40px 158px;
         font-weight: 570;
         font-size: 36px;
@@ -748,6 +790,14 @@ label{
         height: 70px;
     }
 
+    #contact{
+        margin:40px 170px 40px 170px;
+        font-weight: 570;
+        font-size: 36px;
+        padding-top: 12px;
+        height: 70px;
+    }
+
     #firstInfo{
         margin: 8px 95px 8px 95px;
     }
@@ -779,6 +829,13 @@ label{
     }
 
     #thechnical_skills{
+        margin:35px 130px 35px 130px;
+        font-weight: 570;
+        font-size: 34px;
+        padding-top: 12px;
+    }
+
+    #contact{
         margin:35px 130px 35px 130px;
         font-weight: 570;
         font-size: 34px;
@@ -852,8 +909,32 @@ label{
     .type{
         padding: 35px 25px 25px 25px;
     }
-    
 
+    #information{
+        width: 100%;
+        padding-left: 0;
+        
+        /* margin-left: auto;
+        margin-right: auto;
+        text-align: center; */
+    }
+
+    #information input{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact{
+       text-align: center;
+       align-items: center;
+    }
+    
+    #description{
+        width: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    
 }
 
 
@@ -880,6 +961,13 @@ label{
     }
 
     #thechnical_skills{
+        margin:30px 90px 30px 90px;
+        font-weight: 570;
+        font-size: 32px;
+        padding-top: 14px;
+    }
+
+    #contact{
         margin:30px 90px 30px 90px;
         font-weight: 570;
         font-size: 32px;
@@ -968,6 +1056,13 @@ label{
         font-size: 28px;
         height: 55px;
     }
+
+    #contact{
+        margin:25px 70px 25px 70px;
+        font-size: 28px;
+        height: 55px;
+    }
+
 
     #firstInfo{
         margin: 2px 32px 2px 32px;
@@ -1066,6 +1161,13 @@ label{
         padding-top: 13px;
     }
 
+    #contact{
+        margin:20px 58px 20px 58px;
+        font-size: 25px;
+        height: 45px;
+        padding-top: 13px;
+    }
+
     #firstInfo{
         margin: 2px 32px 2px 32px;
     }
@@ -1152,6 +1254,13 @@ label{
     }
 
     #thechnical_skills{
+        margin:10px 48px 2px 48px;
+        font-size: 22px;
+        height: 45px;
+        padding-top: 8px;
+    }
+
+    #contact{
         margin:10px 48px 2px 48px;
         font-size: 22px;
         height: 45px;
