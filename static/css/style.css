@@ -421,6 +421,29 @@ h2{
     border:0.12em solid var(--light-blue);
 }
 
+
+#button3{
+    margin: 8px;
+    animation:bouncy 10s infinite linear;
+    position:relative;
+    display:inline-block;
+    text-decoration:none;
+    transition: 0.25s;
+    padding:10px 12px;
+    border-radius:0.15em;
+    color: var(--orange);
+    font-size: larger;
+    font-weight: bold;
+    background-color:var(--blue);
+    border:0.12em solid var(--blue);
+}
+  
+#button3:hover{
+    color:var( --white);
+    background-color: var(--orange);
+    border:0.12em solid var(--light-blue);
+}
+
 @keyframes bouncy{
     10%{top:0em}
     35%{top:0.2em}
